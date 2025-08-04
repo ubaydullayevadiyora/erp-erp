@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import { Table, Switch } from "antd";
 import dayjs from "dayjs";
 
 const SingleGroupJournal = () => {
-  const { id } = useParams();
+  // const { id } = useParams();
 
   const today = dayjs().format("dddd, MMMM D, YYYY");
 
